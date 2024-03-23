@@ -44,3 +44,12 @@ const anotherGreetingStart = 'Hello';
 const surname = 'Junior';
 const sayHallo = `${anotherGreetingStart} my surname is ${surname}`;
 console.log(sayHallo);
+
+// ====== EXERCISE ========
+// Writ e a program that logs a message with a greeting and your name using the two concatenation methods we used
+const sayHello = 'Hello, my name is';
+const fullName = 'Alexander Msumba';
+const helloName = `${sayHello} ${fullName}`;
+console.log(helloName);
+
+// =====Numbers======

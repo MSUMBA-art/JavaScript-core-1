@@ -93,3 +93,63 @@ console.log(Math.round(percentageOfTrainees));
 let percentageOfMentors = (numberOfMentors / total) * 100;
 console.log(Math.round(percentageOfMentors));
 
+// ======= Statements and expressions =====
+// let total = 1 + 1; // assign the value 2 (the value produced by the expression 1 + 1) to a variable total
+// let greeting = "hello"; // assign the value "hello" (the value produced by the expression expression "hello") to a variable greeting
+// let product = 2 * 4; // assign the value 8 (the value produced by the expression 2 * 4) to a variable product
+// let worldGreeting = "Hello" + "World"; // assign the value "HelloWorld" (the value produced by the expression "Hello" + "World" to a variable worldGreeting)
+
+
+// ========== FUNCTIONS ======
+// Functions are blocks of code that can do a task as many times as you ask them to. They take an input and return an output.
+
+// Here's a function that doubles a number:
+
+function double(number) {
+  return number * 2;
+}
+
+const result = double(2);
+
+console.log(result); // 4
+
+// ==========EXERCISE =========
+/*EXERCISE 1
+
+Create a function called formatPenceToPounds that should
+
+take a number as an input ( representing an amount of money in pence )
+return a string starting with a £ sign and the input number converted to pounds.
+For example, formatPenceToPounds(199) should evaluate to "£1.99"
+
+In your groups, think carefully about the following things:
+
+what the parameter name should be
+creating good names for any variables you use
+don't use console.log inside the body of the function
+Call formatPenceToPounds a few times with different inputs and console.log the outputs in order to check your function. 
+*/
+
+function formatPenceToPounds(num) {
+  return num;
+}
+
+const num = '1.99';
+const pence = num
+
+console.log(parseFloat(pence));
+
+function printMessage(x) {
+  console.log('Hello, nice to meet you ' + x);
+}
+
+function getMessage(name) {
+  return 'Hello, nice to meet you ' + name;
+}
+
+printMessage('Mitch');
+
+printMessage('August');
+
+getMessage('Laetitia');
+
